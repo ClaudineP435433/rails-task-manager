@@ -1,0 +1,13 @@
+
+<div class="container">
+<h1><%= @task.title %></h1>
+
+<%= link_to "Edit the task", edit_task_path , class: "btn btn-primary"%>
+
+
+<p class="details"><%= @task.details %></p>
+
+<input type="checkbox" id="task_check" name="interest" value="task" <%= "checked" if @task.completed%>>
+<label for="task_check"><%= text_adapted %></label>
+</div>
+

@@ -1,0 +1,35 @@
+// Place all the styles related to the tasks controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  text-align: center;
+}
+
+.task_listed {
+  font-size: 18px;
+}
+
+.details {
+  background-color: rgba(10,10,10,0.1);
+  border: 1px solid rgba(10,10,10,0.5);
+  padding: 15px;
+  width: 400px;
+  margin: auto;
+}
+
+.link {
+    text-decoration: none;
+    color: rgba(10,10,10,0.3);
+    padding-right: 15px;
+}
+
+.navbar {
+  height: 20px;
+  text-align: right;
+  padding: 20px;
+}
+
+#task_check {
+  padding-top: 15px;
+}
